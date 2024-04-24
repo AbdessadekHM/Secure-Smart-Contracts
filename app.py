@@ -20,7 +20,7 @@ def main():
             "Select a model:", ["BLSTM", "LSTM", "CNN", "Random forest"]
         )
 
-    if contract_hash.strip() or st.button("predict"):
+    if contract_hash.strip() or st.button("Analyse"):
         st.write(get_source_code(contract_hash))
 
 
