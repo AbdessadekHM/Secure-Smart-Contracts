@@ -17,7 +17,7 @@ def main():
 
     with col2:
         selected_model = st.selectbox(
-            "Select a model:", ["BLSTM", "LSTM", "CNN", "Random forest"]
+            "Select a model:", ["BLSTM", "LSTM", "CNN"]
         )
 
     if contract_hash.strip() or st.button("Analyse"):
